@@ -1,3 +1,4 @@
 # ResAniIndicattor
  Resource AniIndicator (Android Splash  Example)
-![Video](https://github.com/mben-dz/MyVideos/blob/main/ResAniIndicator.mp4)
+
+![](https://github.com/user-attachments/assets/1d307dcd-a205-462c-a979-97a97028e84c)
