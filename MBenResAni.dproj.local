@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.255,=D:\2027\Mobile\Lib\ResAniIndicattor\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.055,D:\2027\Mobile\Lib\ResAniIndicattor\Unit1.pas=D:\2027\Mobile\Lib\ResAniIndicattor\Ctrls\MBenCtrls.ResAniIndicator.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.311,D:\2025\Projects\Package1.dproj=D:\2027\Mobile\Lib\ResAniIndicattor\MBenResAni.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.040,=rtl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.232,=D:\2027\Mobile\Lib\ResAniIndicattor\API\API.MBenCtrls.Types.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.999,=fmx.dcp</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="UG8L4TIRPVMVOVDM" Android="UG8L4TIRPVMVOVDM"/>
+	</ActiveMobileDevice>
+</BorlandProject>

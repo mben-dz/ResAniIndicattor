@@ -1,0 +1,260 @@
+object MainView: TMainView
+  Left = 0
+  Top = 0
+  ClientHeight = 444
+  ClientWidth = 284
+  Fill.Color = claNull
+  Fill.Kind = Solid
+  StyleBook = dmRes.StyleMgr_APP
+  Transparency = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  DesignerMasterStyle = 3
+  object Lyt_Main: TLayout
+    Align = Contents
+    Size.Width = 284.000000000000000000
+    Size.Height = 444.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rect_Main: TRectangle
+      Align = Contents
+      Fill.Color = xFF21282C
+      Size.Width = 284.000000000000000000
+      Size.Height = 444.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Lyt_Top: TLayout
+        Align = MostTop
+        Size.Width = 284.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Lyt_SysBar: TLayout
+          Align = Top
+          Size.Width = 284.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object Rect_Title: TRectangle
+          Align = Client
+          Fill.Kind = Gradient
+          Fill.Gradient.Points = <
+            item
+              Color = xC82C313A
+              Offset = 0.000000000000000000
+            end
+            item
+              Color = xC8890707
+              Offset = 1.000000000000000000
+            end>
+          Fill.Gradient.StartPosition.X = 0.500000000000000000
+          Fill.Gradient.StartPosition.Y = 1.000000000000000000
+          Fill.Gradient.StopPosition.X = 0.499999970197677600
+          Fill.Gradient.StopPosition.Y = 0.000000000000000000
+          Padding.Left = 10.000000000000000000
+          Padding.Right = 10.000000000000000000
+          Size.Width = 284.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Visible = False
+          object Txt_Title: TText
+            Align = Client
+            Size.Width = 264.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Resource AniIndicator ver : 1.0'
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Leading
+            TextSettings.VertAlign = Trailing
+          end
+        end
+      end
+      object Lyt_Bottom: TLayout
+        Align = MostBottom
+        Position.Y = 394.000000000000000000
+        Size.Width = 284.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Rect_Status: TRectangle
+          Align = Client
+          Fill.Kind = Gradient
+          Fill.Gradient.Points = <
+            item
+              Color = x962C313A
+              Offset = 0.000000000000000000
+            end
+            item
+              Color = x96890707
+              Offset = 1.000000000000000000
+            end>
+          Fill.Gradient.StartPosition.X = 0.500000000000000000
+          Fill.Gradient.StartPosition.Y = 1.000000000000000000
+          Fill.Gradient.StopPosition.X = 0.499999970197677600
+          Fill.Gradient.StopPosition.Y = 0.000000000000000000
+          Padding.Left = 10.000000000000000000
+          Padding.Top = 10.000000000000000000
+          Padding.Right = 10.000000000000000000
+          Padding.Bottom = 10.000000000000000000
+          Size.Width = 284.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Visible = False
+          object Txt_Status: TText
+            Align = Client
+            Size.Width = 264.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Current Loop : %s'
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Leading
+          end
+        end
+      end
+      object Lyt_Client: TLayout
+        Align = Client
+        Size.Width = 284.000000000000000000
+        Size.Height = 344.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object TabView: TTabControl
+          Align = Contents
+          Size.Width = 284.000000000000000000
+          Size.Height = 344.000000000000000000
+          Size.PlatformDefault = False
+          TabHeight = 49.000000000000000000
+          TabIndex = 1
+          TabOrder = 0
+          TabPosition = None
+          Sizes = (
+            284s
+            344s
+            284s
+            344s)
+          object Tab_Loading: TTabItem
+            CustomIcon = <
+              item
+              end>
+            TextSettings.Trimming = None
+            IsSelected = False
+            Size.Width = 8.000000000000000000
+            Size.Height = 8.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = ''
+            TabOrder = 0
+            ExplicitSize.cx = 8.000000000000000000
+            ExplicitSize.cy = 8.000000000000000000
+            object ResAniIndicator_Loading: TResAniIndicator
+              MultiResBitmap = <
+                item
+                end>
+              Align = Center
+              Size.Width = 200.000000000000000000
+              Size.Height = 150.000000000000000000
+              Size.PlatformDefault = False
+              Animation.ResourceName = 'VOLUME_CTRL'
+              Animation.FrameCount = 120
+              Animation.RowCount = 10
+              Animation.Duration = 2.000000000000000000
+              Animation.Active = True
+              Animation.LoopCount = 3
+              OnFinish = ResAniIndicator_LoadingFinish
+              OnTerminateLoop = ResAniIndicator_LoadingTerminateLoop
+            end
+          end
+          object Tab_Main: TTabItem
+            CustomIcon = <
+              item
+              end>
+            TextSettings.Trimming = None
+            IsSelected = True
+            Size.Width = 8.000000000000000000
+            Size.Height = 8.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = ''
+            TabOrder = 0
+            ExplicitSize.cx = 8.000000000000000000
+            ExplicitSize.cy = 8.000000000000000000
+            object Lyt_Tool: TLayout
+              Align = MostTop
+              Size.Width = 284.000000000000000000
+              Size.Height = 50.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              object Rect_Tool: TRectangle
+                Align = Client
+                Fill.Kind = Gradient
+                Fill.Gradient.Points = <
+                  item
+                    Color = x782C313A
+                    Offset = 0.000000000000000000
+                  end
+                  item
+                    Color = x96071389
+                    Offset = 1.000000000000000000
+                  end>
+                Fill.Gradient.StartPosition.X = 0.500000000000000000
+                Fill.Gradient.StopPosition.X = 0.499999970197677600
+                Padding.Left = 10.000000000000000000
+                Padding.Top = 10.000000000000000000
+                Padding.Right = 10.000000000000000000
+                Padding.Bottom = 10.000000000000000000
+                Size.Width = 284.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object BtnStartStop: TButton
+                  Align = Client
+                  Cursor = crHandPoint
+                  StyledSettings = [Family, Style, FontColor]
+                  Size.Width = 264.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  Text = 'Start Animation'
+                  TextSettings.Font.Size = 14.000000000000000000
+                  TextSettings.Trimming = None
+                  OnClick = BtnStartStopClick
+                end
+              end
+            end
+            object Btn_Close: TButton
+              Align = Bottom
+              Position.Y = 300.000000000000000000
+              Size.Width = 284.000000000000000000
+              Size.Height = 44.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              Text = 'Close Application'
+              TextSettings.Trimming = None
+              OnClick = Btn_CloseClick
+            end
+            object ResAniIndicator_Main: TResAniIndicator
+              MultiResBitmap = <
+                item
+                end>
+              Align = Center
+              Size.Width = 200.000000000000000000
+              Size.Height = 150.000000000000000000
+              Size.PlatformDefault = False
+              Animation.ResourceName = 'VOLUME_CTRL'
+              Animation.FrameCount = 120
+              Animation.RowCount = 10
+              Animation.Duration = 1.500000000000000000
+              Animation.LoopCount = 7
+              OnProcess = ResAniIndicator_MainProcess
+              OnFinish = ResAniIndicator_MainFinish
+              OnTerminateLoop = ResAniIndicator_MainTerminateLoop
+            end
+          end
+        end
+      end
+    end
+  end
+end

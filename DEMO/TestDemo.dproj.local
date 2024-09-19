@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.712,=D:\2025\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.980,=D:\2025\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.273,=D:\2025\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.105,=D:\2025\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.560,=D:\2025\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.530,D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\MAin.View.pas=D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\Test.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.530,D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\MAin.View.fmx=D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\Test.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.862,=D:\2025\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.521,=D:\2025\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.770,=D:\2025\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.625,D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\Test.fmx=D:\2025\Projects\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.391,=D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\Res\Volume_Ctrl.png</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.634,D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\TestDemo.dproj=D:\2025\Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.150,=D:\2025\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.553,=D:\2025\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.625,D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\Test.pas=D:\2025\Projects\Unit1.pas</Transaction>
+    <Transaction>2024-09-19 19:25:27.783,=D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\Unit1.pas</Transaction>
+    <Transaction>2024-09-19 19:26:14.569,D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\API\DM\DM.Resources.dfm=D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\Unit1.dfm</Transaction>
+    <Transaction>2024-09-19 19:26:14.569,D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\API\DM\DM.Resources.pas=D:\2027\Mobile\Lib\ResAniIndicattor\DEMO\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="UG8L4TIRPVMVOVDM" Android64="UG8L4TIRPVMVOVDM"/>
+	</ActiveMobileDevice>
+</BorlandProject>
